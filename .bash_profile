@@ -1,6 +1,7 @@
 export JAVA_HOME=$(/usr/libexec/java_home)
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+alias sublime='open -a Sublime\ Text'
 alias ls='ls -Gla'
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
